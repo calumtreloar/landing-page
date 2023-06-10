@@ -5,6 +5,13 @@ body {
   margin: 0;
 }
 
+.background-container {
+  background-color: #1f2937;
+  padding-bottom: 75px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -29,10 +36,6 @@ a {
   display: flex;
 }
 
-.background-container {
-  background-color: #1f2937;
-}
-
 .logo {
   font-size: 24px;
   color: #f9faf8;
@@ -42,6 +45,7 @@ a {
   display: flex;
   padding: 45px 200px;
   justify-content: space-between;
+  display: w;
 }
 
 h1 {
@@ -57,7 +61,7 @@ button {
   color: #e5e7eb;
   font-weight: 600;
   border-radius: 8px;
-  padding: 4px 20px;
+  padding: 8px 25px;
   border-style: none;
   align-self: flex-start;
 }
@@ -70,8 +74,8 @@ p,
 }
 
 .right-side > img {
-  width: 500px;
-  height: 200px;
+  width: 600px;
+  height: 250px;
   margin-left: 15px;
 }
 
@@ -79,6 +83,8 @@ p,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 5px solid black;
+  margin-right: 50px;
 }
 
 .content {
@@ -144,6 +150,7 @@ h2 {
   margin-left: auto;
   margin-right: 5px;
   font-weight: bolder;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
@@ -182,4 +189,8 @@ h2 {
   color: #e5e7eb;
   font-size: 15px;
   padding: 20px;
+}
+
+.right-side > img {
+  border-style: none;
 }
