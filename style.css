@@ -83,7 +83,6 @@ p,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 5px solid black;
   margin-right: 50px;
 }
 
