@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 15px 200px;
-  margin-bottom: 75px;
+  margin-bottom: 5px;
 }
 
 ul {
@@ -37,15 +37,22 @@ a {
 }
 
 .logo {
+  display: flex;
+  flex-direction: column;
   font-size: 24px;
   color: #f9faf8;
+}
+
+.logo > img {
+  width: 150px;
+  border: none;
+  padding: 10px 0;
 }
 
 .landing-container {
   display: flex;
   padding: 45px 200px;
   justify-content: space-between;
-  display: w;
 }
 
 h1 {
@@ -82,7 +89,8 @@ p,
 .left-side {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 25px;
   margin-right: 50px;
 }
 
