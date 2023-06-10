@@ -79,3 +79,40 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.image-containers {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+  padding: 0 300px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
+
+.first-box,
+.second-box,
+.third-box,
+.fourth-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #3882f6;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+  margin-top: 5px;
+}
